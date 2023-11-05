@@ -124,6 +124,10 @@ p {
   background-color: #404bbf;
 }
 
+.team-container {
+  background-color: #f4f4fd;
+}
+
 .team-container-list {
   background-color: #ffffff;
 }
@@ -160,7 +164,7 @@ p {
   color: #f4f4fd;
 }
 
-.bottom-paragraph {
+.footer-p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
