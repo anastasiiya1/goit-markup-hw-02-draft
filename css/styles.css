@@ -23,7 +23,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
   letter-spacing: 0.02em;
@@ -34,7 +34,7 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -124,8 +124,8 @@ p {
   background-color: #404bbf;
 }
 
-.team-container {
-  background-color: #f4f4fd;
+.team-container-list {
+  background-color: #ffffff;
 }
 
 .bottom-container {
@@ -146,12 +146,21 @@ p {
 }
 
 .logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.bottom-p {
+.logo-span-footer {
+  color: #f4f4fd;
+}
+
+.bottom-paragraph {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
