@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   line-height: 1.5;
@@ -14,27 +14,33 @@ ul {
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.11;
   text-align: center;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.2;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 p {
   font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 .navigation-container {
@@ -45,21 +51,26 @@ p {
 
 .logo-container {
   text-decoration: none;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .navigation-container-list .link {
   text-decoration: none;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.navigation-container-list .link-studio:focus {
+  color: #404bbf;
 }
 
 .navigation-container-list .link:hover {
@@ -69,11 +80,16 @@ p {
 .navigation-container-list .link:active {
   text-decoration: underline;
 }
+
+.navigation-container-contacts {
+  font-style: normal;
+}
 .contacts-list .contact {
   text-decoration: none;
   color: #434455;
   font-weight: 400;
   font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 .contacts-list .contact:hover,
@@ -85,19 +101,23 @@ p {
   background-color: #2e2f42;
 }
 
-#order-button {
+.order-button {
   background-color: #4d5ae5;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
+  line-height: 1.5;
 }
 
-#order-button:hover {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
+
 .team-container {
   background-color: #f4f4fd;
 }
@@ -112,4 +132,25 @@ p {
 
 .logo-span-name {
   color: #f4f4fd;
+}
+
+.portfolio-container-list {
+  background-color: #ffffff;
+}
+
+.features-p {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.logo-footer {
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+
+.bottom-p {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
